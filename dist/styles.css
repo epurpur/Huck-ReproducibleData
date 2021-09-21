@@ -1,3 +1,13 @@
-h3{
-    color: red !important;
+
+/* Slide 1 - Intro */
+
+#intro p {
+    text-align: left;
+    font-size: 25px;
+    line-height: 25%;
+}
+
+/* Slide 4 - Project Organization */
+#projectManagement p {
+    font-size: 15px !important;
 }
