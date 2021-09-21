@@ -5,20 +5,18 @@ GLOBAL STYLES
 span {
     font-family: 'Space Mono', monospace;
     color: gray;  
+    text-transform: lowercase;
 }
 
+.imageSubtext {
+    font-size: 15px;
+}
 
 /* Slide 1 - Intro */
-
 #intro p {
     text-align: left;
     font-size: 25px;
     line-height: 25%;
-}
-
-/* Slide 4 - Project Organization */
-#projectManagement p {
-    font-size: 15px;
 }
 
 /* Slide 6 - code sub-directory */

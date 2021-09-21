@@ -48,7 +48,7 @@
 				<section id="projectManagement">
 					<h3>Project Management</h3>
 					<img class="r-frame" style="background: rgba(255,255,255,0.1);" width="800" height="450" data-src="public/images/screenshot2.png" alt="Project Management diagram">
-					<p>Image: https://reproducible-science-curriculum.github.io/</p>
+					<p class="imageSubtext">Image: https://reproducible-science-curriculum.github.io/</p>
 				</section>
 
 				<section>
@@ -81,17 +81,61 @@
 
 				<section>
 					<h3><span>data</span> sub-directory</h3>
-					<p> You must identify which data files are: </p>
-					<ul>
-						<li> Original (aka raw aka source) data </li>
+					<ul> 
+						<li>You must identify which data files are: </li>
 						<ul>
-							<li><span> Treat as read-only! </span></li>
-						</ul>
-						<li> Modified: either programmatically or manually edited </li>
-						<ul>
-							<li><span> Treat as disposable </span></li>
+							<li> Original (aka raw aka source) data </li>
+							<ul>
+								<li><span> Treat as read-only! </span></li>
+							</ul>
+							<li> Modified: either programmatically or manually edited </li>
+							<ul>
+								<li><span> Treat as disposable </span></li>
+							</ul>
 						</ul>
 					</ul>
+				</section>
+
+				<section>
+					<h3><span>output</span> sub-directory</h3>
+					<p>Contains files generated from other files</p>
+					<p>Examples include:</p>
+					<ul>
+						<li>Plots</li>
+						<li>Tables</li>
+					</ul>
+				</section>
+
+				<section>
+					<h3><span>documents</span> or <span>reports</span> sub-directory</h3>
+					<ul>
+						<li> Lastly, you need a place for your documents or reports - basically
+						any textual report that you might write in relation to the project </li>
+						<li> Keep in mind these are outwardly facing files (for an advisor, academic
+						readers, clients, etc.). Keep this separate from your data and code, as those
+						are internally facing work files </li>
+					</ul>
+				</section>
+
+				<section>
+					<h3>Key Points</h3>
+					<ul>
+						<li> Distinguish between file types </li>
+						<li> Record modifications </li>
+						<li> More art than science </li>
+					</ul>
+				</section>
+
+				<section>
+					<h3>Identifying Output Files</h3>
+					<img class="r-frame" style="background: rgba(255,255,255,0.1);" width="800" height="450" data-src="public/images/screenshot3.png" alt="Project Management diagram">
+					<p class="imageSubtext">Image: https://reproducible-science-curriculum.github.io/</p>
+				</section>
+
+				<section>
+					<h3>More examples...</h3>
+					<img class="r-frame" style="background: rgba(255,255,255,0.1);" width="850" height="400" data-src="public/images/screenshot4.png" alt="working directory workflow">
+					<p class="imageSubtext">Image: https://datacarpentry.org/r-socialsci/00-intro/index.html</p>
 				</section>
 
 			</div>
