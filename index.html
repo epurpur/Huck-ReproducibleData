@@ -14,9 +14,13 @@
 		<link rel="stylesheet" href="plugin/highlight/monokai.css">
 
 		<!-- Custom styles used to override reveal.css -->
-		<link rel="stylesheet" href="dist/styles.css"
+		<link rel="stylesheet" href="dist/styles.css">
 
-	</head>
+		<!-- Google Fonts -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Space+Mono&display=swap" rel="stylesheet">	</head>
+	
 	<body>
 		<div class="reveal">
 			<div class="slides">
@@ -46,6 +50,50 @@
 					<img class="r-frame" style="background: rgba(255,255,255,0.1);" width="800" height="450" data-src="public/images/screenshot2.png" alt="Project Management diagram">
 					<p>Image: https://reproducible-science-curriculum.github.io/</p>
 				</section>
+
+				<section>
+					<h3><span>project</span> directory</h3>
+					<ul>
+						<li> This is the top-level directory </li>
+						<li> All files related to a project live in this one directory </li>
+						<li> Give the <span>project</span> directory a meaningful name related to your research </li>
+					</ul>
+				</section>
+
+				<section id="codeSubDirectory">
+					<h3><span>code</span> sub-directory</h3>
+					<ul>
+						<li> Separate code into its own directory </li>
+						<li> Other common names for this directory: </li>
+						<ul>
+							<li><span> Scripts </span></li>
+							<li><span> Source </span>or<span> src </span></li>
+							<li><span> Command_files </span></li>
+							<li><span> R </span></li>
+						</ul>
+						<li> Depending on the complexity of your project, you might want to separate:
+						<ul>
+							<li><span> Analysis code </span></li>
+							<li><span> Function definitions </span></li>
+						</ul>
+					</ul>
+				</section>
+
+				<section>
+					<h3><span>data</span> sub-directory</h3>
+					<p> You must identify which data files are: </p>
+					<ul>
+						<li> Original (aka raw aka source) data </li>
+						<ul>
+							<li><span> Treat as read-only! </span></li>
+						</ul>
+						<li> Modified: either programmatically or manually edited </li>
+						<ul>
+							<li><span> Treat as disposable </span></li>
+						</ul>
+					</ul>
+				</section>
+
 			</div>
 		</div>
 

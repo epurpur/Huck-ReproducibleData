@@ -1,4 +1,13 @@
 
+/*******
+GLOBAL STYLES
+*******/
+span {
+    font-family: 'Space Mono', monospace;
+    color: gray;  
+}
+
+
 /* Slide 1 - Intro */
 
 #intro p {
@@ -9,5 +18,10 @@
 
 /* Slide 4 - Project Organization */
 #projectManagement p {
-    font-size: 15px !important;
+    font-size: 15px;
+}
+
+/* Slide 6 - code sub-directory */
+#codeSubDirectory {
+    font-size: 90%
 }
