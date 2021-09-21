@@ -8,6 +8,12 @@ span {
     text-transform: lowercase;
 }
 
+.readmeSpan {
+    font-family: 'Space Mono', monospace;
+    color: gray;  
+    text-transform: uppercase;
+}
+
 .imageSubtext {
     font-size: 15px;
 }
@@ -22,4 +28,9 @@ span {
 /* Slide 6 - code sub-directory */
 #codeSubDirectory {
     font-size: 90%
+}
+
+/* Slide 19 - README file */
+#readmeFile ol li {
+    font-size: 60%;
 }
