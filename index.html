@@ -241,6 +241,76 @@
 					<img class="r-frame" style="background: rgba(255,255,255,0.1);" width="600" height="500" data-src="public/images/screenshot9.png" alt="screenshot - use names to convery file history">
 				</section>
 
+				<section id="machineReadability">
+					<h3>Machine Readable</h3>
+					<ul>
+						<li>Make it easy to search for files later</li>
+						<ul>
+							<li>Via regex or through your operating system's search functionality</li>
+						</ul>
+						<li>Avoid these in file names:</li>
+						<ul>
+							<li>Spaces</li>
+							<li>Punctuation <span>except</span> "-" and "_"</li>
+							<li>Accented characters</li>
+						</ul>
+						<li>Do use:</li>
+						<ul>
+							<li>A consistent capitalization scheme, i.e., don't include the names foo and Foo in the same project</li>
+							<li>Seperate units of metadata with "_" -- use it as a delimiter for regex</li>
+							<li>Use "-" within units of metadata for easier human readability</li>
+						</ul>
+					</ul>
+				</section>
+
+				<section>
+					<h3>Example of advanced technique: "globbing"</h3>
+					<img class="r-frame" style="background: rgba(255,255,255,0.1);" width="600" height="450" data-src="public/images/screenshot10.png" alt="globbing screenshot">
+					<p class="imageSubtext">Jenny Bryan https://speakerdeck.com/jennybc/how-to-name-files?slide=7</p>
+				</section>
+
+				<section>
+					<h3>Example of advanced technique: recover metadata</h3>
+					<img class="r-frame" style="background: rgba(255,255,255,0.1);" width="600" height="450" data-src="public/images/screenshot11.png" alt="recover metadata screenshot">
+					<p class="imageSubtext">Jenny Bryan https://speakerdeck.com/jennybc/how-to-name-files?slide=10</p>
+				</section>
+
+				<section>
+					<h3>Plays well with default ordering</h3>
+					<p>This means that when you look at project files in your directory, the files undergo default ordering in the display</p>
+					<ul>
+						<li>Put numeric info first</li>
+						<li>Logical order: Left pad numbers with zeros</li>
+						<li>Chronological order: Use data format: YYYY-MM-DD</li>
+					</ul>
+				</section>
+
+				<section>
+					<h3>Default ordering: Left pad numbers with zeros</h3>
+					<p>Like so:</p>
+					<ul>
+						<li>01_cleaning.R</li>
+						<li>02_visualization.R</li>
+						<li>10_final-figures.R</li>
+					</ul>
+					<p>If you don't, it might lead to this:</p>
+					<ul>
+						<li>10_final-figures.R</li>
+						<li>1_cleaning.R</li>
+						<li>2_visualization.R</li>
+					</ul>
+				</section>
+
+				<section>
+					<h3>Default ordering: ISO 8601 date standard</h3>
+					<p>Use YYY-MM-DD. Leads to far less confusion among humans. Machines will always interpret this correctly. 
+					Default ordering will work correctly every time.</p>
+					<div class='sideBySide'>
+						<img class="r-frame" style="background: rgba(255,255,255,0.1);" width="600" height="450" data-src="public/images/screenshot12.png" alt="correct date standard naming schema">
+						<img class="r-frame" style="background: rgba(255,255,255,0.1);" width="600" height="450" data-src="public/images/screenshot13.png" alt="incorrect date standard naming schema">
+					</div>
+				</section>
+
 			</div>
 		</div>
 

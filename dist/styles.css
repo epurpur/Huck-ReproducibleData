@@ -18,6 +18,13 @@ span {
     font-size: 15px;
 }
 
+.sideBySide {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
 /* Slide 1 - Intro */
 #intro p {
     text-align: left;
@@ -33,4 +40,9 @@ span {
 /* Slide 19 - README file */
 #readmeFile ol li {
     font-size: 60%;
+}
+
+/* Slide 26 - Machine Readability */
+#machineReadability {
+    font-size: 80%;
 }
