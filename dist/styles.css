@@ -14,6 +14,12 @@ span {
     text-transform: uppercase;
 }
 
+.link {
+    font-family: 'Space Mono', monospace;
+    color: rgb(36, 148, 201);  
+    text-transform: lowercase;
+}
+
 .imageSubtext {
     font-size: 15px;
 }
@@ -45,4 +51,19 @@ span {
 /* Slide 26 - Machine Readability */
 #machineReadability {
     font-size: 80%;
+}
+
+/* Slide 31 - Default ordering */
+#defaultOrdering {
+    font-size: 75%;
+}
+
+/* Slide 32 - File Names */
+#fileNames {
+    font-size: 95%;
+}
+
+/* Slide 37 - Further References */
+#furtherReferences {
+    font-size: 35%;
 }

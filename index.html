@@ -33,7 +33,7 @@
 
 				<section>
 					<h3>Introduction: A Bad Example</h3>
-					<img class="r-frame" style="background: rgba(255,255,255,0.1);" width="600" height="500" data-src="public/images/screenshot1.png" alt="example spreadsheet">
+					<img class="r-frame" width="600" height="500" data-src="public/images/screenshot1.png" alt="example spreadsheet">
 				</section>
 
 				<section>
@@ -47,7 +47,7 @@
 
 				<section id="projectManagement">
 					<h3>Project Management</h3>
-					<img class="r-frame" style="background: rgba(255,255,255,0.1);" width="800" height="450" data-src="public/images/screenshot2.png" alt="Project Management diagram">
+					<img class="r-frame" width="800" height="450" data-src="public/images/screenshot2.png" alt="Project Management diagram">
 					<p class="imageSubtext">Image: https://reproducible-science-curriculum.github.io/</p>
 				</section>
 
@@ -128,25 +128,25 @@
 
 				<section>
 					<h3>Identifying Output Files</h3>
-					<img class="r-frame" style="background: rgba(255,255,255,0.1);" width="800" height="450" data-src="public/images/screenshot3.png" alt="Project Management diagram">
+					<img class="r-frame" width="800" height="450" data-src="public/images/screenshot3.png" alt="Project Management diagram">
 					<p class="imageSubtext">Image: https://reproducible-science-curriculum.github.io/</p>
 				</section>
 
 				<section>
 					<h3>More examples...</h3>
-					<img class="r-frame" style="background: rgba(255,255,255,0.1);" width="850" height="400" data-src="public/images/screenshot4.png" alt="working directory workflow">
+					<img class="r-frame" width="850" height="400" data-src="public/images/screenshot4.png" alt="working directory workflow">
 					<p class="imageSubtext">Image: https://datacarpentry.org/r-socialsci/00-intro/index.html</p>
 				</section>
 
 				<section>
 					<h3>A more complex example</h3>
-					<img class="r-frame" style="background: rgba(255,255,255,0.1);" width="800" height="400" data-src="public/images/screenshot5.png" alt="more complex project folder structure">
+					<img class="r-frame" width="800" height="400" data-src="public/images/screenshot5.png" alt="more complex project folder structure">
 					<p class="imageSubtext">Image: Ties de Kok: https://towardsdatascience.com/how-to-keep-your-research-projects-organized-part-1-folder-structure-10bd56034d3a</p>
 				</section>
 
 				<section>
 					<h3>Automate your folder structure</h3>
-					<img class="r-frame" style="background: rgba(255,255,255,0.1);" width="500" height="500" data-src="public/images/screenshot6.png" alt="automate your folder structure with github">
+					<img class="r-frame" width="500" height="500" data-src="public/images/screenshot6.png" alt="automate your folder structure with github">
 					<p class="imageSubtext">Image: https://github.com/Reproducible-Science-Curriculum/rr-init </p>
 				</section>
 			
@@ -188,7 +188,7 @@
 				</section>
 
 				<section>
-					<img class="r-frame" style="background: rgba(255,255,255,0.1);" width="800" height="650" data-src="public/images/screenshot7.png" alt="readme screenshot">
+					<img class="r-frame" width="800" height="650" data-src="public/images/screenshot7.png" alt="readme screenshot">
 				</section>
 
 				<section>
@@ -233,12 +233,12 @@
 				
 				<section>
 					<h3>Naming conventions: Use names to convey order</h3>
-					<img class="r-frame" style="background: rgba(255,255,255,0.1);" width="600" height="500" data-src="public/images/screenshot8.png" alt="screenshot - use names to convery file order">
+					<img class="r-frame" width="600" height="500" data-src="public/images/screenshot8.png" alt="screenshot - use names to convery file order">
 				</section>
 
 				<section>
 					<h3>Naming conventions: Use names to convey history</h3>
-					<img class="r-frame" style="background: rgba(255,255,255,0.1);" width="600" height="500" data-src="public/images/screenshot9.png" alt="screenshot - use names to convery file history">
+					<img class="r-frame" width="600" height="500" data-src="public/images/screenshot9.png" alt="screenshot - use names to convery file history">
 				</section>
 
 				<section id="machineReadability">
@@ -265,13 +265,13 @@
 
 				<section>
 					<h3>Example of advanced technique: "globbing"</h3>
-					<img class="r-frame" style="background: rgba(255,255,255,0.1);" width="600" height="450" data-src="public/images/screenshot10.png" alt="globbing screenshot">
+					<img class="r-frame" width="600" height="450" data-src="public/images/screenshot10.png" alt="globbing screenshot">
 					<p class="imageSubtext">Jenny Bryan https://speakerdeck.com/jennybc/how-to-name-files?slide=7</p>
 				</section>
 
 				<section>
 					<h3>Example of advanced technique: recover metadata</h3>
-					<img class="r-frame" style="background: rgba(255,255,255,0.1);" width="600" height="450" data-src="public/images/screenshot11.png" alt="recover metadata screenshot">
+					<img class="r-frame" width="600" height="450" data-src="public/images/screenshot11.png" alt="recover metadata screenshot">
 					<p class="imageSubtext">Jenny Bryan https://speakerdeck.com/jennybc/how-to-name-files?slide=10</p>
 				</section>
 
@@ -301,14 +301,86 @@
 					</ul>
 				</section>
 
-				<section>
+				<section id="defaultOrdering">
 					<h3>Default ordering: ISO 8601 date standard</h3>
 					<p>Use YYY-MM-DD. Leads to far less confusion among humans. Machines will always interpret this correctly. 
 					Default ordering will work correctly every time.</p>
 					<div class='sideBySide'>
-						<img class="r-frame" style="background: rgba(255,255,255,0.1);" width="600" height="450" data-src="public/images/screenshot12.png" alt="correct date standard naming schema">
-						<img class="r-frame" style="background: rgba(255,255,255,0.1);" width="600" height="450" data-src="public/images/screenshot13.png" alt="incorrect date standard naming schema">
+						<div>
+							<p>Yes</p>
+							<img class="r-frame" width="400" height="300" data-src="public/images/screenshot12.png" alt="correct date standard naming schema">
+						</div>
+						<div>
+							<p>No</p>
+							<img class="r-frame" width="400" height="300" data-src="public/images/screenshot13.png" alt="incorrect date standard naming schema">
+						<div>
 					</div>
+				</section>
+
+				<section id='fileNames'>
+					<h3>File names: Good, better, best</h3>
+					<ul>
+						<li>Good. <span>Use descriptive file/directory names that convey function and history</span></li>
+						<li>Better. <span>ISO 8601 date stamps in file and directory names. Use number (with left padding) to indicate order of scripts</span></li>
+						<li>Best. <span>Separate units of metadata with "_" (underscore) for regex. Within units of metadata, use "-" (hyphen or dash) for human readability</span></li>
+					</ul>
+				</section>
+
+				<section>
+					<img class="r-frame" width="650" height="650" data-src="public/images/screenshot14.png" alt="good file naming schema example">
+				</section>
+
+				<section>
+					<h3>One more example, with named files</h3>
+					<img class="r-frame" width="950" height="550" data-src="public/images/screenshot15.png" alt="named file scheme example">
+				</section>
+
+				<section>
+					<h3>In sum, good project organization and file names...</h3>
+					<ul>
+						<li>Are easy to implement now</li>
+						<li>Payoff: the more complicated your project goals get and the better your skills become...</li>
+						<ul>
+							<li>File Names: if you do find yourself needing to use regex to call files</li>
+							<li>Project organization: reflects what you need to do anyway when compiling R packages</li>
+						</ul>
+						<li>Make your life easier!</li>
+					</ul>
+				</section>
+
+				<section>
+					<h3>Acknowledgements</h3>
+					<p>Much of the Project Organization and README material has been adapted from: Reproducible Science Curriculum: Data & Project Organization
+					<a href="https://reproducible-science-curriculum.github.io/organization-RR-Jupyter/" target="_blank" class="link">https://reproducible-science-curriculum.github.io/organization-RR-Jupyter/ </span></a>
+					<p>Much of the file naming material has been adapted from: Jenny Bryan. How to Name files
+					<a href="https://speakerdeck.com/jennybc/how-to-name-files" target="_blank" class="link">https://speakerdeck.com/jennybc/how-to-name-files</a></p>
+				</section>
+
+				<section id="furtherReferences">
+					<h3>Further References</h3>
+					<p>Project TIER.  TIER Protocol 3.0.<a href="ttps://www.projecttier.org/tier-protocol/specifications-3-0/" target="_blank" class="link">https://www.projecttier.org/tier-protocol/specifications-3-0/</a></p>
+					<p>Data Carpentry.  R for Social Scientists: Before We Start.<a href="https://datacarpentry.org/r-socialsci/00-intro/index.html" target="_blank" class="link">https://datacarpentry.org/r-socialsci/00-intro/index.html</a> File Organization: 
+					<a href="https://datacarpentry.org/rr-organization1/" target="_blank" class="link">https://datacarpentry.org/rr-organization1/</a> Reproducible Research in R Workshop Overview <a href="https://datacarpentry.org/rr-workshop/" target="_blank" class="link">https://datacarpentry.org/rr-workshop/</a></p>
+					<p>Dryad. Best Practices for creating reusable data publications: Organize files in a logical schema<a href="https://datadryad.org/stash/best_practices#organize" target="_blank" class="link">https://datadryad.org/stash/best_practices#organize</a></p>
+					<p>Martin Chan. 2020. "RStudio Projects and Working Directories: A Beginner's Guide."  Musings on R.<a href="https://martinctc.github.io/blog/rstudio-projects-and-working-directories-a-beginner's-guide/" target="_blank" class="link">https://martinctc.github.io/blog/rstudio-projects-and-working-directories-a-beginner's-guide/</a></p>
+					<p>Leon Jessen.  2018.<a href="https://twitter.com/jessenleon/status/964236119658418176" target="_blank" class="link">https://twitter.com/jessenleon/status/964236119658418176</a> and How to organize a project: The most important talk you never heard! <a href="https://github.com/leonjessen/talks" target="_blank" class="link">https://github.com/leonjessen/talks</a></p>
+					<p>Ties de Kok.  How to keep your research projects organized, part 1: folder structure. <a href="https://towardsdatascience.com/how-to-keep-your-research-projects-organized-part-1-folder-structure-10bd56034d3a " target="_blank" class="link">https://towardsdatascience.com/how-to-keep-your-research-projects-organized-part-1-folder-structure-10bd56034d3a</a></p>
+					<p>"Good enough practices in scientific computing." PLOS Computational Biology. 2017. <a href="https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005510#pcbi.1005510.ref001" target="_blank" class="link">https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005510#pcbi.1005510.ref001</a></p>
+					<p>Noble, W. S. "A Quick Guide to Organizing Computational Biology Projects." PLOS Computational Biology. 2009<a href="https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1000424" target="_blank" class="link">https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1000424</a></p>
+					<p>Jenny Bryan. How to name files.<a href="https://speakerdeck.com/jennybc/how-to-name-files " target="_blank" class="link">https://speakerdeck.com/jennybc/how-to-name-files</a></p>
+					<p>Rich Fitzjohn.  Designing Projects.<a href="https://nicercode.github.io/blog/2013-04-05-projects/" target="_blank" class="link">https://nicercode.github.io/blog/2013-04-05-projects/</a></p>
+					<p>Chris Von Csefalvay. Structuring R Projects.<a href=" https://chrisvoncsefalvay.com/2018/08/09/structuring-r-projects/" target="_blank" class="link"> https://chrisvoncsefalvay.com/2018/08/09/structuring-r-projects/</a>(Note: best source for more complicated, data science projects.)</p>
+					<p>Krista L. DeStasio. R Best Practices.<a href="https://kdestasio.github.io/post/r_best_practices/#fn1" target="_blank" class="link">https://kdestasio.github.io/post/r_best_practices/#fn1</a></p>
+				</section>
+
+				<section>
+					<h3>Project Organization in sum</h3>
+					<ul>
+						<li>Organize files and folders to reflect their function</li>
+						<li>Use README files as metadata to provie more info about your work</li>
+						<li>Never over-write raw data</li>
+						<li>Keep records of modifications that you have made to data, ideally in fhe form of scripts</li>
+					</ul>
 				</section>
 
 			</div>
